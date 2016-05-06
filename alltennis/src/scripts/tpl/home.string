@@ -1,0 +1,538 @@
+<div class="home-header">
+  <p>全网球</p>
+  <b class="yo-ico" action-type='tap.menu'>&#xe60d;</b>
+</div>
+    <nav>
+        <ul id="home-hot-nav">
+          <li class="active" action-type="switch.homehot">头条</li>
+          <li action-type="switch.homehot">ATP</li>
+          <li action-type="switch.homehot">WTA</li>
+          <li action-type="switch.homehot">专题</li>
+          <li action-type="switch.homehot">中国</li>
+          <li action-type="switch.homehot">花边</li>
+          <li action-type="switch.homehot">动态</li>
+        </ul>
+      </nav>
+          <section id="swiper-big">
+              <div class="swiper-container" id="home-swiper">
+                  <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="head">
+                            <img src="images/arrow.png"/>
+                            <span>下拉刷新...</span>
+                        </div>
+                        <div class="lun">
+                          <div class="swiper-container" id="nav-swiper">
+                              <div class="swiper-wrapper"  id="lun-swiper">
+                                  <div class="swiper-slide">
+                                    <img src="images/home1.jpg" />
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <img src="images/home2.jpg" />
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <img src="images/home3.jpg" />
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <img src="images/home4.jpg" />
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <img src="images/home5.jpg" />
+                                  </div>
+                              </div>
+                              <!-- Add Pagination -->
+                              <div class="swiper-pagination homepage"></div>
+                          </div>     
+                        </div>
+                        <div class="news">
+                          <div class="empty"></div>
+                          <div class="news-con">
+                            <p>今日新闻</p>
+                          </div>
+                          <div class="empty"></div>
+                        </div>
+                        <ul>
+                          <li ms-repeat="livelist">
+                            <div class="li-left">
+                            <p  ms-html="el.p"></p>
+                            <i ms-html="el.i"></i>
+                            <b ms-html="el.b" class="yo-ico"></b>
+                            </div>
+                            <div class="li-right">
+                              <img src="images/1-2.png"  ms-src="el.img"/>
+                            </div>
+                          </li>
+                          <!-- <li>
+                            <div ms-html="el.img" class="li-left">
+                            <p>完整NTRP评教，来测测你的网球多来测测你的网球多</p>
+                            <i>完整美国NTRP网球自评规则</i>
+                            <b class="yo-ico">&#xe6ed; <span>1</span></b>
+                            </div>
+                            <div class="li-right">
+                              <img src="images/1-3.png" />
+                            </div>
+                          </li>
+                          <li>
+                            <div class="li-left">
+                            <p>网球极客悦江湖 首届极客杯网球挑战赛在上海</p>
+                            <i>2016年上海市民运动会</i>
+                            <b class="yo-ico">&#xe6ed; <span>1</span></b>
+                            </div>
+                            <div class="li-right">
+                              <img src="images/1-4.png" />
+                            </div>
+                          </li>
+                          <li>
+                            <div class="li-left">
+                            <p>贝克尔不满穆雷猜忌：你想暗示啥</p>
+                            <i>贝克尔炮轰穆雷：或不能乱说</i>
+                            <b class="yo-ico">&#xe6ed; <span>1</span></b>
+                            </div>
+                            <div class="li-right">
+                              <img src="images/1-5.png" />
+                            </div>
+                          </li>
+                          <li>
+                            <div class="li-left">
+                            <p>完整NTRP评教，来测测你的网球多来测测你的网球多</p>
+                            <i>完整美国NTRP网球自评规则</i>
+                            <b class="yo-ico">&#xe6ed; <span>1</span></b>
+                            </div>
+                            <div class="li-right">
+                              <img src="images/1-3.png" />
+                            </div>
+                          </li>
+                          <li>
+                            <div class="li-left">
+                            <p>张择:网球需要职业化和吴迪的竞争的竞争的竞争的竞争</p>
+                            <i>张择盼男网在竞争中提升实力</i>
+                            <b class="yo-ico">&#xe6ed; <span>1</span></b>
+                            </div>
+                            <div class="li-right">
+                              <img src="images/1-2.png" />
+                            </div>
+                          </li>
+                          <li>
+                            <div class="li-left">
+                            <p>贝克尔不满穆雷猜忌：你想暗示啥</p>
+                            <i>贝克尔炮轰穆雷：或不能乱说</i>
+                            <b class="yo-ico">&#xe6ed; <span>1</span></b>
+                            </div>
+                            <div class="li-right">
+                              <img src="images/1-5.png" />
+                            </div>
+                          </li> -->
+                        </ul>
+                        <div class="foot">
+                            <img src="images/arrow.png"/>
+                            <span>上拉加载更多...</span>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="news">
+                          <div class="empty"></div>
+                          <div class="news-con">
+                            <p>今日新闻</p>
+                          </div>
+                          <div class="empty"></div>
+                        </div>
+                        <ul>
+                          <li>
+                            <div class="li-left">
+                            <p>Attention please纳达尔打响红土第一站</p>
+                            <i>纳达尔称霸蒙特卡洛大师赛</i>
+                            <b class="yo-ico">&#xe6ed; <span>1</span></b>
+                            </div>
+                            <div class="li-right">
+                              <img src="images/2-1.png" />
+                            </div>
+                          </li>
+                          <li>
+                            <div class="li-left">
+                            <p>穆雷遭纳达尔逆转，再度炮轰有人体能作弊</p>
+                            <i>穆雷遭纳达尔逆转，炮轰有人体能作弊</i>
+                            <b class="yo-ico">&#xe6ed; <span>1</span></b>
+                            </div>
+                            <div class="li-right">
+                              <img src="images/2-2.png" />
+                            </div>
+                          </li>
+                          <li>
+                            <div class="li-left">
+                            <p>蒙特卡洛赛纳达尔完胜瓦林卡 半决赛</p>
+                            <i>纳达尔、穆雷会师半决赛</i>
+                            <b class="yo-ico">&#xe6ed; <span>1</span></b>
+                            </div>
+                            <div class="li-right">
+                              <img src="images/2-3.png" />
+                            </div>
+                          </li>
+                          <li>
+                            <div class="li-left">
+                            <p>蒙特卡洛赛费德勒遭特松加逆转无缘半决赛</p>
+                            <i>费德勒惨遭特松加逆转</i>
+                            <b class="yo-ico">&#xe6ed; <span>1</span></b>
+                            </div>
+                            <div class="li-right">
+                              <img src="images/2-4.png" />
+                            </div>
+                          </li>
+                          <li>
+                            <div class="li-left">
+                            <p>完整NTRP评教，来测测你的网球多来测测你的网球多</p>
+                            <i>完整美国NTRP网球自评规则</i>
+                            <b class="yo-ico">&#xe6ed; <span>1</span></b>
+                            </div>
+                            <div class="li-right">
+                              <img src="images/2-1.png" />
+                            </div>
+                          </li>
+                          <li>
+                            <div class="li-left">
+                            <p>张择:网球需要职业化和吴迪的竞争的竞争的竞争的竞争</p>
+                            <i>张择盼男网在竞争中提升实力</i>
+                            <b class="yo-ico">&#xe6ed; <span>1</span></b>
+                            </div>
+                            <div class="li-right">
+                              <img src="images/2-2.png" />
+                            </div>
+                          </li>
+                          <li>
+                            <div class="li-left">
+                            <p>贝克尔不满穆雷猜忌：你想暗示啥</p>
+                            <i>贝克尔炮轰穆雷：或不能乱说</i>
+                            <b class="yo-ico">&#xe6ed; <span>1</span></b>
+                            </div>
+                            <div class="li-right">
+                              <img src="images/2-3.png" />
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="news">
+                          <div class="empty"></div>
+                          <div class="news-con">
+                            <p>今日新闻</p>
+                          </div>
+                          <div class="empty"></div>
+                        </div>
+                        <ul>
+                          <li>
+                            <div class="li-left">
+                            <p>对布沙尔来说，flop的不止排名</p>
+                            <i>布沙尔从商业宠儿到遭IMG抛弃</i>
+                            <b class="yo-ico">&#xe6ed; <span>1</span></b>
+                            </div>
+                            <div class="li-right">
+                              <img src="images/3-1.png" />
+                            </div>
+                          </li>
+                          <li>
+                            <div class="li-left">
+                            <p>男友神预测 伊万诺维奇红土赛季迎开门红</p>
+                            <i>保时捷大赛伊万横扫晋级</i>
+                            <b class="yo-ico">&#xe6ed; <span>1</span></b>
+                            </div>
+                            <div class="li-right">
+                              <img src="images/3-2.png" />
+                            </div>
+                          </li>
+                          <li>
+                            <div class="li-left">
+                            <p>抢车之前咱先斗下颜值</p>
+                            <i>斯图加特赛美女红毯斗艳</i>
+                            <b class="yo-ico">&#xe6ed; <span>1</span></b>
+                            </div>
+                            <div class="li-right">
+                              <img src="images/3-3.png" />
+                            </div>
+                          </li>
+                          <li>
+                            <div class="li-left">
+                            <p>沃兹因伤继续高挂免战牌，能否出战发往成疑</p>
+                            <i>沃兹尼亚奇因伤退出红土热身赛</i>
+                            <b class="yo-ico">&#xe6ed; <span>1</span></b>
+                            </div>
+                            <div class="li-right">
+                              <img src="images/3-4.png" />
+                            </div>
+                          </li>
+                          <li>
+                            <div class="li-left">
+                            <p>完整NTRP评教，来测测你的网球多来测测你的网球多</p>
+                            <i>完整美国NTRP网球自评规则</i>
+                            <b class="yo-ico">&#xe6ed; <span>1</span></b>
+                            </div>
+                            <div class="li-right">
+                              <img src="images/3-1.png" />
+                            </div>
+                          </li>
+                          <li>
+                            <div class="li-left">
+                            <p>张择:网球需要职业化和吴迪的竞争的竞争的竞争的竞争</p>
+                            <i>张择盼男网在竞争中提升实力</i>
+                            <b class="yo-ico">&#xe6ed; <span>1</span></b>
+                            </div>
+                            <div class="li-right">
+                              <img src="images/3-2.png" />
+                            </div>
+                          </li>
+                          <li>
+                            <div class="li-left">
+                            <p>贝克尔不满穆雷猜忌：你想暗示啥</p>
+                            <i>贝克尔炮轰穆雷：或不能乱说</i>
+                            <b class="yo-ico">&#xe6ed; <span>1</span></b>
+                            </div>
+                            <div class="li-right">
+                              <img src="images/3-3.png" />
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="topic">
+                          <img src="images/4-4.jpg" />
+                          <div class="topic-div">
+                            <p>法网</p>
+                            <i>相约罗兰加洛斯 法网青少年外卡赛携手浪琴战活重燃</i>
+                          </div>
+                        </div>
+                        <div class="topic">
+                          <img src="images/4-5.jpg" />
+                          <div class="topic-div">
+                            <p>温网</p>
+                            <i>暂无新闻</i>
+                          </div>
+                        </div>
+                        <div class="topic">
+                          <img src="images/4-3.jpg" />
+                          <div class="topic-div">
+                            <p>美网</p>
+                            <i>美网顶棚准备就绪 其余工程也将陆续展开</i>
+                          </div>
+                        </div>
+                        <div class="topic">
+                          <img src="images/4-1.jpg" />
+                          <div class="topic-div">
+                            <p>澳网</p>
+                            <i>德约科维奇澳网第六冠，平历史记录</i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="news">
+                          <div class="empty"></div>
+                          <div class="news-con">
+                            <p>今日新闻</p>
+                          </div>
+                          <div class="empty"></div>
+                        </div>
+                        <ul>
+                          <li>
+                            <div class="li-left">
+                            <p>金地ITF赛：王蔷完胜张宇璇进决赛 王蔷本场</p>
+                            <i>金花组合收获双打亚军</i>
+                            <b class="yo-ico">&#xe6ed; <span>1</span></b>
+                            </div>
+                            <div class="li-right">
+                              <img src="images/5-1.png" />
+                            </div>
+                          </li>
+                          <li>
+                            <div class="li-left">
+                            <p>金地ITF赛：王蔷张宇璇会师四强 王蔷状态</p>
+                            <i>ITF深圳50K即将上演金花得比</i>
+                            <b class="yo-ico">&#xe6ed; <span>1</span></b>
+                            </div>
+                            <div class="li-right">
+                              <img src="images/5-2.png" />
+                            </div>
+                          </li>
+                          <li>
+                            <div class="li-left">
+                            <p>彭帅专访讲诉术后康复艰辛 曾因彷徨想退役</p>
+                            <i>彭帅接受金地ITF赛女子赛独家专访</i>
+                            <b class="yo-ico">&#xe6ed; <span>1</span></b>
+                            </div>
+                            <div class="li-right">
+                              <img src="images/5-3.png" />
+                            </div>
+                          </li>
+                          <li>
+                            <div class="li-left">
+                            <p>彭帅张宇璇横扫无缘八强 明天王蔷</p>
+                            <i>彭帅无缘ITF深圳50K八强</i>
+                            <b class="yo-ico">&#xe6ed; <span>1</span></b>
+                            </div>
+                            <div class="li-right">
+                              <img src="images/2-4.png" />
+                            </div>
+                          </li>
+                          <li>
+                            <div class="li-left">
+                            <p>完整NTRP评教，来测测你的网球多来测测你的网球多</p>
+                            <i>完整美国NTRP网球自评规则</i>
+                            <b class="yo-ico">&#xe6ed; <span>1</span></b>
+                            </div>
+                            <div class="li-right">
+                              <img src="images/2-1.png" />
+                            </div>
+                          </li>
+                          <li>
+                            <div class="li-left">
+                            <p>张择:网球需要职业化和吴迪的竞争的竞争的竞争的竞争</p>
+                            <i>张择盼男网在竞争中提升实力</i>
+                            <b class="yo-ico">&#xe6ed; <span>1</span></b>
+                            </div>
+                            <div class="li-right">
+                              <img src="images/2-2.png" />
+                            </div>
+                          </li>
+                          <li>
+                            <div class="li-left">
+                            <p>贝克尔不满穆雷猜忌：你想暗示啥</p>
+                            <i>贝克尔炮轰穆雷：或不能乱说</i>
+                            <b class="yo-ico">&#xe6ed; <span>1</span></b>
+                            </div>
+                            <div class="li-right">
+                              <img src="images/2-3.png" />
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="news">
+                          <div class="empty"></div>
+                          <div class="news-con">
+                            <p>今日新闻</p>
+                          </div>
+                          <div class="empty"></div>
+                        </div>
+                        <ul>
+                          <li>
+                            <div class="li-left">
+                            <p>网坛球童囧事：为美女调整内衣 与小德共舞</p>
+                            <i>球童囧事集锦</i>
+                            <b class="yo-ico">&#xe6ed; <span>1</span></b>
+                            </div>
+                            <div class="li-right">
+                              <img src="images/6-1.png" />
+                            </div>
+                          </li>
+                          <li>
+                            <div class="li-left">
+                            <p>当我们还在讨论"二胎时代"，人家克里斯特尔</p>
+                            <i>克里斯特尔斯宣布三度怀孕</i>
+                            <b class="yo-ico">&#xe6ed; <span>1</span></b>
+                            </div>
+                            <div class="li-right">
+                              <img src="images/6-2.png" />
+                            </div>
+                          </li>
+                          <li>
+                            <div class="li-left">
+                            <p>贝克尔不满穆雷猜忌：你想暗示啥？</p>
+                            <i>贝克尔炮轰穆雷：或不能乱说</i>
+                            <b class="yo-ico">&#xe6ed; <span>1</span></b>
+                            </div>
+                            <div class="li-right">
+                              <img src="images/6-3.png" />
+                            </div>
+                          </li>
+                          <li>
+                            <div class="li-left">
+                            <p>"体坛奥斯卡"揭开神秘面纱 小德、小薇夺魁</p>
+                            <i>2016劳伦斯世界体育颁奖典礼落幕</i>
+                            <b class="yo-ico">&#xe6ed; <span>1</span></b>
+                            </div>
+                            <div class="li-right">
+                              <img src="images/6-4.png" />
+                            </div>
+                          </li>
+                          <li>
+                            <div class="li-left">
+                            <p>今年会有多少人为莎娃送祝福</p>
+                            <i>莎拉波娃29岁生日快乐</i>
+                            <b class="yo-ico">&#xe6ed; <span>1</span></b>
+                            </div>
+                            <div class="li-right">
+                              <img src="images/6-5.png" />
+                            </div>
+                          </li>
+                          <li>
+                            <div class="li-left">
+                            <p>一个被认为商业价值将超莎娃的姑娘商业价值</p>
+                            <i>IMG宣布不再与布沙尔续约</i>
+                            <b class="yo-ico">&#xe6ed; <span>1</span></b>
+                            </div>
+                            <div class="li-right">
+                              <img src="images/6-6.png" />
+                            </div>
+                          </li>
+                          <li>
+                            <div class="li-left">
+                            <p>好消息莎娃有望提前解禁</p>
+                            <i>米屈肼遭重新评估 莎娃有望解禁</i>
+                            <b class="yo-ico">&#xe6ed; <span>1</span></b>
+                            </div>
+                            <div class="li-right">
+                              <img src="images/6-7.png" />
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="news">
+                          <div class="empty"></div>
+                          <div class="news-con">
+                            <p>今日新闻</p>
+                          </div>
+                          <div class="empty"></div>
+                        </div>
+                        <ul>
+                          <li>
+                            <div class="li-left">
+                            <p>寻觅衡山路上的五星运动俱乐部</p>
+                            <i>寻觅衡山路上的五星运动俱乐部</i>
+                            <b class="yo-ico">&#xe6ed; <span>1</span></b>
+                            </div>
+                            <div class="li-right">
+                              <img src="images/7-1.png" />
+                            </div>
+                          </li>
+                          <li>
+                            <div class="li-left">
+                            <p>相约罗兰加洛斯 法国青少年外卡赛携手</p>
+                            <i>获得男女第一名的选手共同参加5月20日至21日在巴黎举行的外卡决赛，男女冠军将</i>
+                            <b class="yo-ico">&#xe6ed; <span>1</span></b>
+                            </div>
+                            <div class="li-right">
+                              <img src="images/7-2.png" />
+                            </div>
+                          </li>
+                          <li>
+                            <div class="li-left">
+                            <p>Nike网球运动员Air Max iD鞋款曝光</p>
+                            <i>耐克产品设计师为旗下顶尖运动员精挑细选，倾力打造属于他们的Nike Air Max iD</i>
+                            <b class="yo-ico">&#xe6ed; <span>1</span></b>
+                            </div>
+                            <div class="li-right">
+                              <img src="images/7-3.png" />
+                            </div>
+                          </li>
+                          <li>
+                            <div class="li-left">
+                            <p>途未尽 征不止|东风悦达起亚KX5革命</p>
+                            <i>2016年3月10日，东风悦达起亚SUV全新力作KX5在山城重庆上市，于此拉开其破局中</i>
+                            <b class="yo-ico">&#xe6ed; <span>1</span></b>
+                            </div>
+                            <div class="li-right">
+                              <img src="images/7-4.png" />
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                  </div>
+              </div>
+            </section>

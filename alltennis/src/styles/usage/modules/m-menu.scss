@@ -1,0 +1,39 @@
+ .headermenu{
+ 	@include flexbox(flex);
+ 	@include align-items(center);
+ 	@include flex-direction(column);
+ 	@include box-sizing(border-box);
+    @include border(0 0 1px 0, #5a6062);  
+ 	width: 100%;
+ 	background: #161e21;
+ 	.picTop{
+ 		width: 0.49rem;
+ 		height: 0.62rem;
+ 		padding-top: 0.55rem ;
+ 	}
+ 	p{
+ 		padding-bottom: 0.55rem;
+ 		color: white;
+ 	}
+ }
+ .menu-ul{
+ 	padding: 0rem 0.1rem; 
+ 	li{
+ 		@include box-sizing(border-box);
+    	@include border(0 0 1px 0, #5a6062);
+		padding: 0.15rem 0;
+		position: relative;
+		color: black;
+		i{
+			position: absolute;
+			right: 0;
+			color: #cbcbcb;
+		}
+ 	}
+ }
+ .mask {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+ background: rgba(0,0,0,.7);
+}

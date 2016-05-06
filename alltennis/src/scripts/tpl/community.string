@@ -1,0 +1,29 @@
+<div class="home-header">
+	<p>网球圈</p>
+	<b class="yo-ico" action-type='tap.menu'>&#xe60d;</b>
+	<i action-type='tap.comi'>+</i>
+	<ul  ms-visible="isTrue">
+		<li>发网球圈</li>
+		<li>与我相关</li>
+		<li>添加关注</li>
+		<li>我的圈子</li>
+	</ul>
+</div>
+<nav class="communityNav">
+    <ul id="community-ul">
+        <li class="active" action-type="switch.community">热帖</li>
+        <li action-type="switch.homehot">圈子</li>
+    </ul>
+</nav>
+<section spa-widget="scroll">
+    <div class="swiper-container" id="community-swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+            	热帖
+            </div>
+            <div class="swiper-slide">
+            	圈子
+            </div>
+        </div>
+    </div>
+</section>

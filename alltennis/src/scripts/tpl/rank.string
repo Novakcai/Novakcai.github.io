@@ -1,0 +1,329 @@
+<div class="home-header">
+	<p>全网球</p>
+	<b class="yo-ico" action-type='tap.menu'>&#xe60d;</b>
+</div>
+<nav class="rankNav">
+	<ul id="rank-ul">
+		<li class="active" action-type="switch.rankhot">ATP</li>
+		<li action-type="switch.rankhot">WTA</li>
+		<li action-type="switch.rankhot">金花</li>
+	</ul>
+</nav>
+<section spa-widget="scroll">
+    <div class="swiper-container" id="rank-swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+            	<div class="rankbox">
+                    <div class="empty"></div>
+                        <div class="rank-con">
+                            <div class="rankLeft">
+								<img src="images/rank1.png" />
+                            </div>
+                            <div class="rankRight">
+                            	<div class="rankR1">
+                            		<p>TOP1</p>
+                            		<i>参赛数量</i>
+                            		<i>国家</i>
+                            		<i>积分</i>
+                            		<i>排名变化</i>
+                            	</div>
+                            	<div class="rankR2">
+                            		<p>德约科维奇</p>
+                            		<i>18</i>
+                            		<i>塞尔维亚</i>
+                            		<i>16540</i>
+                            		<i>—</i>
+                            	</div>
+                            </div>
+                        </div>
+                    <div class="empty"></div>
+                </div>
+                <ul>
+                	<li>排名</li>
+                	<li>姓名</li>
+                	<li>积分</li>
+                	<li>参赛数量</li>
+                	<li>排名变化</li>
+                </ul>
+                <ul>
+                	<li>2</li>
+                	<li>穆雷</li>
+                	<li>8175</li>
+                	<li>20</li>
+                	<li>-</li>
+                </ul>
+                <ul>
+                	<li>3</li>
+                	<li>费德勒</li>
+                	<li>7785</li>
+                	<li>18</li>
+                	<li>-</li>
+                </ul>
+                <ul>
+                	<li>4</li>
+                	<li>瓦林卡</li>
+                	<li>6460</li>
+                	<li>23</li>
+                	<li>-</li>
+                </ul>
+                <ul>
+                	<li>5</li>
+                	<li>纳达尔</li>
+                	<li>5595</li>
+                	<li>23</li>
+                	<li>-</li>
+                </ul>
+                <ul>
+                	<li>6</li>
+                	<li>锦织圭</li>
+                	<li>4490</li>
+                	<li>20</li>
+                	<li>-</li>
+                </ul>
+                <ul>
+                	<li>2</li>
+                	<li>穆雷</li>
+                	<li>8175</li>
+                	<li>20</li>
+                	<li>-</li>
+                </ul>
+                <ul>
+                	<li>3</li>
+                	<li>费德勒</li>
+                	<li>7785</li>
+                	<li>18</li>
+                	<li>-</li>
+                </ul>
+                <ul>
+                	<li>4</li>
+                	<li>瓦林卡</li>
+                	<li>6460</li>
+                	<li>23</li>
+                	<li>-</li>
+                </ul>
+                <ul>
+                	<li>5</li>
+                	<li>纳达尔</li>
+                	<li>5595</li>
+                	<li>23</li>
+                	<li>-</li>
+                </ul>
+                <ul>
+                	<li>6</li>
+                	<li>锦织圭</li>
+                	<li>4490</li>
+                	<li>20</li>
+                	<li>-</li>
+                </ul>
+            </div>
+            <div class="swiper-slide">
+            	<div class="rankbox">
+                    <div class="empty"></div>
+                        <div class="rank-con">
+                            <div class="rankLeft">
+								<img src="images/rank2.png" />
+                            </div>
+                            <div class="rankRight">
+                            	<div class="rankR1">
+                            		<p>TOP1</p>
+                            		<i>参赛数量</i>
+                            		<i>国家</i>
+                            		<i>积分</i>
+                            		<i>排名变化</i>
+                            	</div>
+                            	<div class="rankR2">
+                            		<p>德约科维奇</p>
+                            		<i>18</i>
+                            		<i>塞尔维亚</i>
+                            		<i>16540</i>
+                            		<i>—</i>
+                            	</div>
+                            </div>
+                        </div>
+                    <div class="empty"></div>
+                </div>
+                <ul>
+                	<li>排名</li>
+                	<li>姓名</li>
+                	<li>积分</li>
+                	<li>参赛数量</li>
+                	<li>排名变化</li>
+                </ul>
+                <ul>
+                	<li>2</li>
+                	<li>穆雷</li>
+                	<li>8175</li>
+                	<li>20</li>
+                	<li>-</li>
+                </ul>
+                <ul>
+                	<li>3</li>
+                	<li>费德勒</li>
+                	<li>7785</li>
+                	<li>18</li>
+                	<li class="yo-ico" style="color:red;">&#xe632;</li>
+                </ul>
+                <ul>
+                	<li>4</li>
+                	<li>瓦林卡</li>
+                	<li>6460</li>
+                	<li>23</li>
+                	<li>-</li>
+                </ul>
+                <ul>
+                	<li>5</li>
+                	<li>纳达尔</li>
+                	<li>5595</li>
+                	<li>23</li>
+                	<li>-</li>
+                </ul>
+                <ul>
+                	<li>6</li>
+                	<li>锦织圭</li>
+                	<li>4490</li>
+                	<li>20</li>
+                	<li>-</li>
+                </ul>
+                <ul>
+                	<li>2</li>
+                	<li>穆雷</li>
+                	<li>8175</li>
+                	<li>20</li>
+                	<li>-</li>
+                </ul>
+                <ul>
+                	<li>3</li>
+                	<li>费德勒</li>
+                	<li>7785</li>
+                	<li>18</li>
+                	<li>-</li>
+                </ul>
+                <ul>
+                	<li>4</li>
+                	<li>瓦林卡</li>
+                	<li>6460</li>
+                	<li>23</li>
+                	<li>-</li>
+                </ul>
+                <ul>
+                	<li>5</li>
+                	<li>纳达尔</li>
+                	<li>5595</li>
+                	<li>23</li>
+                	<li>-</li>
+                </ul>
+                <ul>
+                	<li>6</li>
+                	<li>锦织圭</li>
+                	<li>4490</li>
+                	<li>20</li>
+                	<li>-</li>
+                </ul>
+            </div>
+            <div class="swiper-slide">
+            	<div class="rankbox">
+                    <div class="empty"></div>
+                        <div class="rank-con">
+                            <div class="rankLeft">
+								<img src="images/rank3.png" />
+                            </div>
+                            <div class="rankRight">
+                            	<div class="rankR1">
+                            		<p>TOP1</p>
+                            		<i>参赛数量</i>
+                            		<i>国家</i>
+                            		<i>积分</i>
+                            		<i>排名变化</i>
+                            	</div>
+                            	<div class="rankR2">
+                            		<p>德约科维奇</p>
+                            		<i>18</i>
+                            		<i>塞尔维亚</i>
+                            		<i>16540</i>
+                            		<i>—</i>
+                            	</div>
+                            </div>
+                        </div>
+                    <div class="empty"></div>
+                </div>
+                <ul>
+                	<li>排名</li>
+                	<li>姓名</li>
+                	<li>积分</li>
+                	<li>参赛数量</li>
+                	<li>排名变化</li>
+                </ul>
+                <ul>
+                	<li>2</li>
+                	<li>穆雷</li>
+                	<li>8175</li>
+                	<li>20</li>
+                	<li>-</li>
+                </ul>
+                <ul>
+                	<li>3</li>
+                	<li>费德勒</li>
+                	<li>7785</li>
+                	<li>18</li>
+                	<li>-</li>
+                </ul>
+                <ul>
+                	<li>4</li>
+                	<li>瓦林卡</li>
+                	<li>6460</li>
+                	<li>23</li>
+                	<li>-</li>
+                </ul>
+                <ul>
+                	<li>5</li>
+                	<li>纳达尔</li>
+                	<li>5595</li>
+                	<li>23</li>
+                	<li>-</li>
+                </ul>
+                <ul>
+                	<li>6</li>
+                	<li>锦织圭</li>
+                	<li>4490</li>
+                	<li>20</li>
+                	<li>-</li>
+                </ul>
+                <ul>
+                	<li>2</li>
+                	<li>穆雷</li>
+                	<li>8175</li>
+                	<li>20</li>
+                	<li>-</li>
+                </ul>
+                <ul>
+                	<li>3</li>
+                	<li>费德勒</li>
+                	<li>7785</li>
+                	<li>18</li>
+                	<li>-</li>
+                </ul>
+                <ul>
+                	<li>4</li>
+                	<li>瓦林卡</li>
+                	<li>6460</li>
+                	<li>23</li>
+                	<li>-</li>
+                </ul>
+                <ul>
+                	<li>5</li>
+                	<li>纳达尔</li>
+                	<li>5595</li>
+                	<li>23</li>
+                	<li>-</li>
+                </ul>
+                <ul>
+                	<li>6</li>
+                	<li>锦织圭</li>
+                	<li>4490</li>
+                	<li>20</li>
+                	<li>-</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

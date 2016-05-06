@@ -1,0 +1,28 @@
+<div class="m-index">
+	<div class="l-index-content">
+	</div>
+	<footer>
+		<ul>
+			<li class="active" action-type="tap.switch" data-tag="home">
+				<i class="yo-ico">&#xe600;</i>
+				<b>首页</b>
+			</li>
+			<li action-type="tap.switch" data-tag="video">
+				<i class="yo-ico">&#xe607;</i>
+				<b>视频</b>
+			</li>
+			<li action-type="tap.switch" data-tag="community" id="communityShow">
+				<i class="yo-ico">&#xe613;</i>
+				<b>圈子</b>
+			</li>
+			<li action-type="tap.switch" data-tag="rank">
+				<i class="yo-ico">&#xe64a;</i>
+				<b>排名</b>
+			</li>
+			<li action-type="tap.switch" data-tag="search">
+				<i class="yo-ico">&#xe820;</i>
+				<b>发现</b>
+			</li>
+		</ul>
+	</footer>
+</div>

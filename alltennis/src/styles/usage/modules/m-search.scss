@@ -1,0 +1,49 @@
+.home-header{
+		@include flexbox(flex);
+	  z-index: 3;
+		height: 0.44rem;
+		background: #152733;
+		position: relative;
+		p{
+			width: 100%;
+			height: 0.44rem;
+			font-weight: normal;
+			font-size: 0.16rem;
+			color: white;
+			line-height: 0.44rem;
+			text-align: center;
+		}
+		b{
+			position: absolute;
+			left: 0.05rem;
+			top: 0rem;
+			line-height: 0.44rem;
+			font-size: 0.17rem;
+			color: #28a6a5;
+		}
+	}
+.searchbig{
+	height: 100%;
+	width: 100%;
+	background: #161e21;
+	.searchNav{
+		@include flexbox(flex);
+		@include  justify-content(space-between);
+		margin-top: 0.15rem;
+		padding : 0.15rem 0.1rem;	
+		background: #292d2e;
+		p{
+			font-size: 0.14rem;
+			color: white;
+			i{
+				color: #35aab4;
+				font-size: 0.2rem;
+			}
+		}
+		b{
+			font-weight: normal;
+			color: #35aab4; 
+			font-size: 0.16rem;
+		}
+	}
+}

@@ -1,0 +1,22 @@
+<div class="login-header">
+	<p>登陆</p>
+	<b class="yo-ico" action-type='tap.login'>&#xe639;</b>
+</div>
+<nav class="login-nav">
+	<div action-type="tap.login" class="login-img">
+		<img src="images/logo.png" />
+	</div>
+</nav>
+<ul class="login-ul1">
+		<li class="login-li1">登陆<input type="text" placeholder="请输入注册手机号"/></li>
+		<li>密码<input type="text" placeholder="请输入密码"/></li>
+</ul>
+<section class="login-sec">
+	<div class="empty"></div>
+	<div class="sec-con">
+		<p>登陆</p>
+		<b>忘记密码?</b>
+		<i>还没有账号？<e>注册</e></i>
+	</div>
+	<div class="empty"></div>
+</section>

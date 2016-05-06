@@ -1,0 +1,69 @@
+<div class="home-header">
+	<p action-type="tap.game">赛事 
+    <i class="yo-ico">&#xe632;</i>
+  </p>
+	<b class="yo-ico" action-type='tap.menu'>&#xe60d;</b>
+      <ul id="video-ul1" ms-visible="isTrue">
+        <li>赛事</li>
+        <li>花絮</li>
+        <li>技术</li>
+        <li>动态</li>
+      </ul>
+</div>
+          <section spa-widget="scroll">
+              <div class="swiper-container" id="home-swiper">
+                  <div class="swiper-wrapper">
+                      <div class="swiper-slide" id="video-sec">
+                        <div class="videobox">
+                            <div class="videoleft">
+                              <img src="images/21.png" />
+                            </div>
+                            <div class="videoright">
+                              <p>不是最佳状态又如何？红土依然是霸主</p>
+                              <b>纳达尔第九次问鼎蒙特卡洛</b>
+                              <i class="yo-ico">直播 &#xe6ed; 1</i>
+                            </div>
+                      </div>
+                      <div class="videobox">
+                            <div class="videoleft">
+                              <img src="images/22.png" />
+                            </div>
+                            <div class="videoright">
+                              <p>不是最佳状态又如何？红土依然是霸主</p>
+                              <b>纳达尔第九次问鼎蒙特卡洛</b>
+                              <i class="yo-ico">直播 &#xe6ed; 1</i>
+                            </div>
+                      </div>
+                      <div class="videobox">
+                            <div class="videoleft">
+                              <img src="images/23.png" />
+                            </div>
+                            <div class="videoright">
+                              <p>不是最佳状态又如何？红土依然是霸主</p>
+                              <b>纳达尔第九次问鼎蒙特卡洛</b>
+                              <i class="yo-ico">直播 &#xe6ed; 1</i>
+                            </div>
+                      </div>
+                      <div class="videobox">
+                            <div class="videoleft">
+                              <img src="images/21.png" />
+                            </div>
+                            <div class="videoright">
+                              <p>不是最佳状态又如何？红土依然是霸主</p>
+                              <b>纳达尔第九次问鼎蒙特卡洛</b>
+                              <i class="yo-ico">直播 &#xe6ed; 1</i>
+                            </div>
+                      </div>
+                      <div class="videobox">
+                            <div class="videoleft">
+                              <img src="images/21.png" />
+                            </div>
+                            <div class="videoright">
+                              <p>不是最佳状态又如何？红土依然是霸主</p>
+                              <b>纳达尔第九次问鼎蒙特卡洛</b>
+                              <i class="yo-ico">直播 &#xe6ed; 1</i>
+                            </div>
+                      </div>
+                  </div>
+              </div>
+            </section>

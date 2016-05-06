@@ -1,0 +1,17 @@
+$font-heiti-light: Heiti SC Light, Helvetica Neue, Helvetica, STHeiTi, sans-serif;
+$font-heiti-medium: Heiti SC Medium, Heiti SC Light, Helvetica Neue, Helvetica, STHeiTi, sans-serif;
+
+@font-face {
+  font-family: yofont;
+  src: url("/alltennis/images/iconfont/iconfont.woff") format("woff"), url("/alltennis/images/iconfont/iconfont.ttf") format("truetype");
+  src: url("/alltennis/images/iconfont/iconfont1.woff") format("woff"), url("/alltennis/images/iconfont/iconfont1.ttf") format("truetype");
+}
+
+[qapp-widget="scroll"] {
+	@include flex(1);
+	width: 100%;
+}
+
+body {
+	background-color: #fff !important;
+}

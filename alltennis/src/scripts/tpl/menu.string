@@ -1,0 +1,12 @@
+<div class="headermenu">
+	<div class="picTop" action-type="tap.menu">
+		<img src="images/menu.png" />
+	</div>
+	<p>未登录</p>
+</div>
+<ul class="menu-ul">
+	<li class="yo-ico">首页<i>&#xe639;</i></li>
+	<li class="yo-ico">账户<i>&#xe639;</i></li>
+	<li class="yo-ico">消息<i>&#xe639;</i></li>
+	<li class="yo-ico">设置<i>&#xe639;</i></li>
+</ul>

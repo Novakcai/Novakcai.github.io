@@ -1,0 +1,5 @@
+<div class="swiper-container" id="guide-swiper">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="images/guide.jpg" /></div>
+    </div>
+</div>
