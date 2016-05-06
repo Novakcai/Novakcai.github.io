@@ -4,7 +4,7 @@
 </div>
 <nav class="login-nav">
 	<div action-type="tap.login" class="login-img">
-		<img src="images/logo.png" />
+		<img src="/alltennis/images/logo.png" />
 	</div>
 </nav>
 <ul class="login-ul1">

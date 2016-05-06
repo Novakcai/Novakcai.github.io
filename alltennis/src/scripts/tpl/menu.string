@@ -1,6 +1,6 @@
 <div class="headermenu">
 	<div class="picTop" action-type="tap.menu">
-		<img src="images/menu.png" />
+		<img src="/alltennis/images/menu.png" />
 	</div>
 	<p>未登录</p>
 </div>

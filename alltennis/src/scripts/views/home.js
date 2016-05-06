@@ -87,13 +87,13 @@ SPA.defineView('home',{
 				        myScroll.scrollTo(0, -size);
 				        head.removeClass('up');
 				    } else if (this.y >= 0) {
-				        head.attr('src', 'images/ajax-loader.gif');
+				        head.attr('src', '/alltennis/images/ajax-loader.gif');
 				        //TODO ajax下拉刷新数据
                        
 				        setTimeout(function () {
 				            myScroll.scrollTo(0, -size);
 				            head.removeClass('up');
-				            head.attr('src', 'images/arrow.png');
+				            head.attr('src', '/alltennis/images/arrow.png');
 				        }, 1000);
 				    }
 				    
@@ -104,7 +104,7 @@ SPA.defineView('home',{
 				        foot.removeClass('down')
 				    } else if (maxY >= 0) {
 				    	var self = this;
-				        foot.attr('src', 'images/ajax-loader.gif');
+				        foot.attr('src', '/alltennis/images/ajax-loader.gif');
 				        //TODO ajax上拉加载数据
 				         //将数据push到里面
 				        $.ajax({
@@ -119,7 +119,7 @@ SPA.defineView('home',{
 							 	setTimeout(function () {
 					            myScroll.scrollTo(0, self.y + size);
 					            foot.removeClass('down');
-					            foot.attr('src', 'images/arrow.png');
+					            foot.attr('src', '/alltennis/images/arrow.png');
 					            }, 1000);
 								},
 

@@ -16,7 +16,7 @@
                       <div class="swiper-slide" id="video-sec">
                         <div class="videobox">
                             <div class="videoleft">
-                              <img src="images/21.png" />
+                              <img src="/alltennis/images/21.png" />
                             </div>
                             <div class="videoright">
                               <p>不是最佳状态又如何？红土依然是霸主</p>
@@ -26,7 +26,7 @@
                       </div>
                       <div class="videobox">
                             <div class="videoleft">
-                              <img src="images/22.png" />
+                              <img src="/alltennis/images/22.png" />
                             </div>
                             <div class="videoright">
                               <p>不是最佳状态又如何？红土依然是霸主</p>
@@ -36,7 +36,7 @@
                       </div>
                       <div class="videobox">
                             <div class="videoleft">
-                              <img src="images/23.png" />
+                              <img src="/alltennis/images/23.png" />
                             </div>
                             <div class="videoright">
                               <p>不是最佳状态又如何？红土依然是霸主</p>
@@ -46,7 +46,7 @@
                       </div>
                       <div class="videobox">
                             <div class="videoleft">
-                              <img src="images/21.png" />
+                              <img src="/alltennis/images/21.png" />
                             </div>
                             <div class="videoright">
                               <p>不是最佳状态又如何？红土依然是霸主</p>
@@ -56,7 +56,7 @@
                       </div>
                       <div class="videobox">
                             <div class="videoleft">
-                              <img src="images/21.png" />
+                              <img src="/alltennis/images/21.png" />
                             </div>
                             <div class="videoright">
                               <p>不是最佳状态又如何？红土依然是霸主</p>
